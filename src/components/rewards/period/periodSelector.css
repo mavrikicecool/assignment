@@ -1,0 +1,27 @@
+.period-container {
+  margin: 0 10px;
+}
+
+.period-selector {
+  width: 100%;
+  display: flex;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  align-items: center;
+  background-color: #eee;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.period-item {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.period-item.selected {
+  color: white;
+  background-color: blue;
+}

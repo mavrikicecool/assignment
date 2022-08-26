@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 8080,
+  "routes": "./mocks/routes.json",
+  "middlewares": [
+    "./mocks/middleware.js"
+  ],
+  "watch": true,
+  "delay": 500
+}
